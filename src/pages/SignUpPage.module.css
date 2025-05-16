@@ -1,0 +1,72 @@
+
+  .signUpContainer h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .signUpForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .signUpButton {
+    background-color: #27ae60; /* A green color for sign up */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signUpButton:hover {
+    background-color: #219653;
+  }
+  
+  .loginLink {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .loginLink a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  .signUpContainer {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }

@@ -1,0 +1,88 @@
+.signUpContainer,
+.loginContainer {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Keep a maximum width for readability on larger screens */
+  width: 90%; /* Allow it to take up 90% of its parent on smaller screens */
+  margin: 20px auto; /* Add some top/bottom margin and center horizontally */
+  text-align: center;
+}
+
+  .loginContainer h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .loginButton {
+    background-color: #3498db; /* A primary blue color for sign in */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #2980b9;
+  }
+  
+  .signUpLink {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .signUpLink a {
+    color: #27ae60; /* Green to contrast with sign in */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signUpLink a:hover {
+    text-decoration: underline;
+  }
+  
+  .forgotPassword {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .forgotPassword a {
+    color: #e67e22; /* An orange color for emphasis */
+    text-decoration: none;
+  }
+  
+  .forgotPassword a:hover {
+    text-decoration: underline;
+  }
